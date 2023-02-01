@@ -1,10 +1,10 @@
 header {
-  background-color: #93bddd;
+  background-color: #f6b49e;
   padding: 10px;
 }
 
 body {
-  background-color: #93bddd;
+  background-color: #f6b49e;
 }
 
 nav ul {
@@ -29,28 +29,17 @@ main {
   padding: 20px;
 }
 
-.home-content {
-  display: flex;
-}
-
-.home-image {
-  width: 600px;
-  margin-right: 20px;
-  display: flex;
-}
-
-.home-image img {
-  height: 600px;
-  width: 600px;
-}
-
-.home-description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.contact-info {
+  background-color: lightgray;
+  padding: 20px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
-.home-description h2 {
+.resume {
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
   margin-bottom: 20px;
 }

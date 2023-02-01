@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="gallery">
+            <h1 style="text-align: center; font-size: xx-large;">Art</h1>
+            <div class="gallery-container">
+                <img src="img/chinese_folk-art_stylisation.jpg" alt="Image 1" class="gallery-item"
+                    data-name="Chinese Folk-Art Stylisation" data-medium="Acrylic paint, watercolour on board"
+                    data-size="60 × 80 cm" data-date="December 2019" data-description="This piece is hugely inspired by a Chinese artist named Hu Yong Kai (胡永凯). His artworks portray
+                    the Chinese culture (rural scenery and snapshots of everyday life) and a stylised facial expression –
+                    the rectangular nose, long ears, almond shape eyes, heart-shaped mouth, and a thick line of
+                    eyebrows. Since I am staying in China, I intend to learn more about its beautiful culture. I aim to
+                    recreate a modern Chinese stylisation using Hu’s technique, illustrating a Chinese woman sitting in
+                    the living room with a tea set.">
+                <img src="img/idiot.jpg" alt="Image 2" class="gallery-item" data-name="Idiot"
+                    data-medium="Acrylic paint on canvas" data-size="30 × 40 cm" data-date=" September 2020"
+                    data-description="Idiot is the first part of an art trilogy I created, following the theme of identity. In this artwork, I
+                    choose to focus on a relationship I had that have influenced me in both positive and negative ways.
+                    In the process of loving this person, I have dealt with many toxicity behaviours that left me
+                    completely broken yet, I have also experienced the rawest emotions of what it is to bond with
+                    someone on the deepest level – love, learn, and trust. Despite the pain it brought me, I am still
+                    grateful for what everything that happened.">
+                <img src="img/in_search_of_identity.jpg" alt="Image 3" class="gallery-item"
+                    data-name="In Search of Identity" data-medium="Acrylic paint on canvas" data-size=" 30 × 40 cm
+                    " data-date="March 2021
+                    " data-description="In Search of Identity is the final part of the identity theme art trilogy. In this studio work, I want to
+                    express my perspective on the journey to find what my own identity means to me. Despite my
+                    awareness of the people that shaped my identity, there are still numerous underlying factors that
+                    contribute to my individuality. Therefore, the process of understanding oneself is endless, almost
+                    mysterious like the forest – an unexplored realm full of the unknown.">
+                <img src="img/life_and_death.jpg" alt="Image 4" class="gallery-item" data-name="Life and Death"
+                    data-medium="Digital" data-size="2000 × 3000 pixel" data-date="March 2021" data-description="Life and Death is a recreation of my award-winning artwork from middle school. It illustrates the
+                    vision I had of how fragile the line between living and dying is. No one can predict what tomorrow
+                    will hold, so we must treasure the present time and live our life to the fullest. I hope everyone that
+                    sees this will take a moment to reflect and appreciate their life and surroundings.">
+                <img src="img/out_of_this_world.jpg" alt="Image 7" class="gallery-item" data-name="Out of this World"
+                    data-medium="Acrylic paint, correction pen, gloss on board" data-size="120 × 80 cm" data-date="September 2019
+                    " data-description="My inspiration came from a Swedish artist named Hilma Af Klint, who is known for abstractionism.
+                    One of her works Group IV, no. 2, the Ten Largest, Youth, portrays a picture of life from her
+                    perspective – birth and growth. Similarly, I intend to take a Japanese cultural symbol/pattern called
+                    “kikkou” to create geometric abstract art and convey my perception of what life means. Since the
+                    “kikkou” represents longevity, I wanted to use this pattern to showcase the beauty and sorrow of
+                    one’s life.
+                    ">
+                <img src="img/mother_natures_gift.jpg" alt="Image 5" class="gallery-item"
+                    data-name="Mother Nature's Gift" data-medium="Old fabric and sewing thread" data-size="28 × 28 cm"
+                    data-date="March 2021" data-description="This artwork is a portrayal of my recognition of women’s worth. I choose to hand stitch this piece,
+                    showing a giant hand holding a woman because I want to emphasise nature’s creation – a gift. The
+                    plants hanging from those palms are a representation of nature’s hand. From my perspective,
+                    women are one of the most vulnerable yet the strongest people that must be protected and valued.
+                    Therefore, by placing a woman in the gentle palm, the audience can understand that all women are
+                    precious. ">
+                <img src="img/my_mom_&_i.jpg" alt="Image 6" class="gallery-item" data-name="My Mom & I"
+                    data-medium="Acrylic paint on board" data-size="30 × 40 cm" data-date="December 2019"
+                    data-description="My Mom & I is the second part of the identity theme art trilogy. In Cambodian culture, we love and
+                    honour our parents, especially our mother. My mom is one of the best role models because she is a
+                    strong and respectable woman. She plays a huge role in influencing who I am as a person, hence my
+                    identity. Since November is a Thanksgiving month, I felt that it is the right time to pay my respects
+                    and express my gratitude towards her through my artwork.">
+                <img src="img/scumble_and_splatter.jpg" alt="Image 8" class="gallery-item"
+                    data-name="Scumble and Splatter" data-medium="Acrylic paint on board" data-size="30 × 40 cm"
+                    data-date="January 2023" data-description="1">
+                <img src="img/3d_ball.jpg" alt="Image 9" class="gallery-item" data-name="3D Ball"
+                    data-medium="Acrylic paint on board" data-size="30 × 40 cm" data-date="January 2023"
+                    data-description="1">
+            </div>
+            <h1 style="text-align: center; font-size: xx-large;">Theatre</h1>
+            <div class="gallery-container">
+                <img src="img/chinese_folk-art_stylisation.jpg" alt="Image 1" class="gallery-item" data-name=""
+                    data-medium="" data-size="" data-date="" data-description="">
+            </div>
+            <div class=" modal" id="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p><b>Name:</b> <span id="name"></span></p>
+                    <p><b>Medium:</b> <span id="medium"></span></p>
+                    <p><b>Size:</b> <span id="size"></span></p>
+                    <p><b>Date:</b> <span id="date"></span></p>
+                    <p><b>Description:</b> <span id="description"></span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
