@@ -1,10 +1,10 @@
 header {
-  background-color: #f6b49e;
+  background-color: #b884cc;
   padding: 10px;
 }
 
 body {
-  background-color: #f6b49e;
+  background-color: #b884cc;
 }
 
 nav ul {
@@ -30,16 +30,19 @@ main {
 }
 
 .contact-info {
-  background-color: lightgray;
+  background-color: #60246c;
   padding: 20px;
   text-align: center;
   margin-bottom: 20px;
+  color: #f9e4a1;
 }
 
 .resume {
-  background-color: lightgray;
+  /* background-color: #60246c; */
+  background-color: #fff8e5;
   padding: 20px;
   text-align: center;
   align-items: center;
   margin-bottom: 20px;
+  color: black;
 }
