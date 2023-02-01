@@ -46,3 +46,7 @@ main {
   margin-bottom: 20px;
   color: black;
 }
+
+.resume ul {
+  list-style: none;
+}
